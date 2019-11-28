@@ -2,9 +2,9 @@ import speech_recognition as sr
 
 r=sr.Recognizer()
 
-a=sr.AudioFile('numw.wav')
+a=sr.AudioFile('proofw.wav')
 with a as source :
-	audio=r.record(source)
+	   audio=r.record(source)
 
 text=r.recognize_google(audio, language="es-CO")
 
