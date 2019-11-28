@@ -1,5 +1,3 @@
-//Scharss https://scharss.github.io/
-
 import speech_recognition as sr
 
 r=sr.Recognizer()
