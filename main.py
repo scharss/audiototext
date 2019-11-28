@@ -2,7 +2,7 @@ import speech_recognition as sr
 
 r=sr.Recognizer()
 
-a=sr.AudioFile('adi.wav')
+a=sr.AudioFile('numw.wav')
 with a as source :
 	audio=r.record(source)
 
